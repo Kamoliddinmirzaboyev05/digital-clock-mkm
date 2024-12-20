@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+body{
+    background-color: #323842;
+}
+main{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    padding: 50px;
+    height: 500px;
+    background-color: #23272E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.sonlar{
+    width: 180px;
+    height: 200px;
+    background-color: #1E2227;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+    color: #9EB2BF;
+}
+.sana{
+    height: 100px;
+    padding: 30px;
+    /* background-color: #1E2227; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 64px;
+    color: #9EB2BF;
+}
+.haftaKuni{
+    height: 100px;
+    padding: 30px;
+    /* background-color: #1E2227; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    color: #9EB2BF; 
+}
+.clock{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
